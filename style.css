@@ -1,0 +1,322 @@
+#splash {
+    position: fixed; top: 0; left: 0; z-index: 999;
+    width: 100vw; height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    font-family: "Pixelify Sans", serif;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+#splash.hide {
+    opacity: 0; visibility: hidden;
+    transition: all 1s;
+
+}
+
+body {
+    background-image: url(./images/stars.gif);
+    background-size: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Pixelify Sans", serif;
+}
+
+.mainbox {
+    width: 924px;
+    height: 1020px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5rem 0 5rem 0;
+    /* border: 2px solid gray; */
+}
+
+.nav {
+    width: 940px;
+    height: 150px;
+    background-color: black;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgb(188, 188, 188);
+}
+
+.name {
+    width: 8rem;
+    height: 3rem;
+    border: 2px solid white;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Pixelify Sans", serif;
+    font-size: 30px;
+    transition-duration: 1s;
+    z-index: 1 ;
+    cursor: wait;
+}
+
+.name:hover {
+    opacity: 66% ;
+    display: none;
+}
+
+.idk {
+    width: 8rem;
+    height: 3rem;
+    display: none;
+}
+
+.name:hover + .idk {
+    display: block;
+    cursor: pointer;
+}
+
+
+.s1 {   
+    width: 200px;
+    height: 700px;
+    background-color: white;
+    margin-right: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#wlc-pop {
+    width: 120px;
+}
+
+#omori {
+    width: 120px;
+    margin-top: -15rem;
+    margin: -1rem;
+}
+
+.hi {
+    width: 160px;
+    height: 30px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -0.5rem;
+}
+
+.desc2 {
+    width: 170px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    margin-top: -3rem;
+}
+
+#comp-love{
+    width: 170px;
+    margin-top: -3rem;
+}
+
+.boxxx {
+    width: 150px;
+    height: 70px;
+    border: 2px solid black;
+    overflow: auto;
+}
+
+.main {
+    width: 500px;
+    height: 700px;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 2px solid rgb(130, 130, 130);
+}
+
+.welcome {
+    width: 480px;
+    height: 300px;
+    background-color: white;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+}
+
+.welcome::-webkit-scrollbar {
+    width: 5px;
+}
+
+.welcome::-webkit-scrollbar-track {
+    width: 5px;
+    background: rgb(255, 255, 255);
+}
+
+.welcome::-webkit-scrollbar-thumb {
+    width: 5px;
+    background: rgb(0, 0, 0);
+}
+
+#wlc-msg {
+    font-size: l15px;
+    display: flex;
+    justify-content: center;
+}
+
+.desc {
+    font-family: "Roboto Mono", serif;
+    font-size: 11px;
+    padding: 0 15px 0 15px  ;
+    margin: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.end {
+    display: flex;
+    justify-content: center;
+    margin: 3rem;
+}
+
+#heart {
+    width: 30px;
+}
+
+.boxes {
+    background-color: rgb(0, 0, 0);
+    width: 480px;
+    height: 370px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: "Roboto Mono", serif;
+    font-size: 10px;
+    
+}
+
+.box {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    width: 230px;
+    height: 240px;
+    padding: 5px;
+}
+
+.log-box {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    width: 230px;
+    height: 240px;
+    padding: 5px;
+    overflow: auto;
+}
+
+.log-box::-webkit-scrollbar {
+    width: 5px;
+}
+
+.log-box::-webkit-scrollbar-track {
+    width: 5px;
+    background: rgb(0, 0, 0);
+}
+
+.log-box::-webkit-scrollbar-thumb {
+    width: 5px;
+    background: rgb(255, 255, 255);
+}
+
+.last-box {
+    background-color: rgb(0, 0, 0);
+    width: 480px;
+    height: 115px;
+    border: 2px solid white;
+}
+
+#box1 {
+    width: 230px;
+    height: 240px;
+}
+
+.s2 {
+    width: 200px;
+    height: 700px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.minigame {
+    margin-top: 1rem;
+}
+
+
+#game1 {
+
+   width: 150px;
+   height: 50px;
+}
+
+.index {    
+    width: 150px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: -17rem;
+    background-color: white;
+    color: black;
+    padding: 1rem;
+}
+
+.heading {
+    font-family: "Pixelify Sans", serif;
+    margin: 10px;
+    margin-top: -10px;
+}
+
+.button {
+    margin: 1px;
+    padding: 0 15px 0 15px;
+    background-color: white;
+    width: 100px;
+    height: 30px;
+    font-family: "Roboto Mono", serif;
+}
+
+.button:hover {
+    background-color: black;
+    color: white;
+    width: 110px;
+    height: 33px;
+
+}
+
+.footer {
+    width: 924px;
+    height: 150px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: blac;
+}
+
+#frog1 {
+    width: 5rem;
+}
